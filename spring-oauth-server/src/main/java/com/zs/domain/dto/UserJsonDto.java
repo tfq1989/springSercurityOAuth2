@@ -14,7 +14,11 @@ import com.zs.domain.user.User;
 public class UserJsonDto implements Serializable {
 
 
-    private String guid;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -4436145642072972607L;
+	private String guid;
     private boolean archived;
 
     private String username;
